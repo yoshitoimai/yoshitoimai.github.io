@@ -1,0 +1,1 @@
+# yoshitoimai.github.io
