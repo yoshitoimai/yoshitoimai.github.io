@@ -47,6 +47,13 @@
 			"main":"before-remove-sprite/main.js",
 			"custom":"before-remove-sprite/custom.js",
 			"document":"remove-sprite/document.html"
+		},
+		{
+			"title":"キャラクターのスタート位置を変更しよう",
+			"dir":"enchant-tips-sprite/",
+			"main":"before-set-sprite-random/main.js",
+			"custom":"before-set-sprite-random/custom.js",
+			"document":"set-sprite-random/document.html"
 		}
 	]
 }
