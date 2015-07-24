@@ -61,6 +61,13 @@
 			"main":"before-set-button/main.js",
 			"custom":"before-set-button/custom.js",
 			"document":"set-button/document.html"
+		},
+		{
+			"title":"ボタンを押してみよう",
+			"dir":"enchant-tips-button/",
+			"main":"before-click-button/main.js",
+			"custom":"before-click-button/custom.js",
+			"document":"click-button/document.html"
 		}
 	]
 }
