@@ -68,6 +68,13 @@
 			"main":"before-click-button/main.js",
 			"custom":"before-click-button/custom.js",
 			"document":"click-button/document.html"
+		},
+		{
+			"title":"ボタンを押してプレイヤーを移動させよう",
+			"dir":"enchant-tips-button/",
+			"main":"before-click-button-once/main.js",
+			"custom":"before-click-button-once/custom.js",
+			"document":"click-button-once/document.html"
 		}
 	]
 }
