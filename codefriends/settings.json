@@ -54,6 +54,13 @@
 			"main":"before-set-sprite-random/main.js",
 			"custom":"before-set-sprite-random/custom.js",
 			"document":"set-sprite-random/document.html"
+		},
+		{
+			"title":"ボタンを配置しよう",
+			"dir":"enchant-tips-button/",
+			"main":"before-set-button/main.js",
+			"custom":"before-set-button/custom.js",
+			"document":"set-button/document.html"
 		}
 	]
 }
