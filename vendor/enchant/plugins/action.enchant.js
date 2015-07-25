@@ -22,7 +22,7 @@ enchant.action = {};
  * Base class of enchant.Action
  * @scope enchant.action.Action.prototype
  */
-enchant.action.Action = enchant.Class.create(enchant.Sprite, {
+enchant.action.ActionSprite = enchant.Class.create(enchant.Sprite, {
 	/**
 	 * Constructor of Action
 	 * @param {String} imagePath
@@ -49,7 +49,7 @@ enchant.action.Action = enchant.Class.create(enchant.Sprite, {
 		this.velocityX = 0;
 		this.velocityY = 0;
 		this.collisionTarget = new Array();
-		
+
 		this.addEventListener('enterframe', function(){
 			// if (this.moveX != 0) this.velocityX = this.moveX;
 			// if (this.moveY != 0) this.velocityY = this.moveY;
@@ -175,7 +175,7 @@ enchant.action.Action = enchant.Class.create(enchant.Sprite, {
 					}
 				}
 			}
-			
+
 		});
 	},
 	jump: function(acceleration) {
@@ -249,7 +249,7 @@ enchant.action.Action = enchant.Class.create(enchant.Sprite, {
 			return true;
 		}
 		return false;
-		
+
 	},
 	getTarget: function() {
 		var target = {};
@@ -351,17 +351,5 @@ enchant.action.Action = enchant.Class.create(enchant.Sprite, {
 			var e = new Event('removed');
 			this.dispatchEvent(e);
 		}
-	}
-});
-
-enchant.action.ActionPlayer = enchant.Class.create(enchant.action.Action, {
-	initialize: function(imagePath, width, height){
-		enchant.action.Action.call(this, imagePath, width, height);
-	}
-});
-
-enchant.action.ActionEnemy = enchant.Class.create(enchant.action.Action, {
-	initialize: function(imagePath, width, height){
-		enchant.action.Action.call(this, imagePath, width, height);
 	}
 });
