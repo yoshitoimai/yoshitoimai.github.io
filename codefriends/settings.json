@@ -10,7 +10,7 @@
 		],
 		"pages":[
 			{
-				"title":"背景を青にしよう",
+				"pageTitle":"背景を青にしよう",
 				"dir":"enchant-tips-background/",
 				"main":"before-set-color-blue/main.js",
 				"custom":"before-set-color-blue/custom.js",
