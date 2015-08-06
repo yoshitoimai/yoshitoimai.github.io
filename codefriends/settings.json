@@ -1,3 +1,6 @@
+//test1
+
+//test2
 
 [
 	{
@@ -11,7 +14,7 @@
 		"pages":[
 			{
 				"pageTitle":"背景を青にしよう",
-				"dir":"enchant-tips-background/",
+				"dir":"codefriends-enchant-tips/",
 				"main":"before-set-color-blue/main.js",
 				"custom":"before-set-color-blue/custom.js",
 				"document":"set-color-blue/document.html",
@@ -22,7 +25,7 @@
 			},
 			{
 				"pageTitle":"背景を赤にしよう",
-				"dir":"enchant-tips-background/",
+				"dir":"codefriends-enchant-tips/",
 				"main":"before-set-color-red/main.js",
 				"custom":"before-set-color-red/custom.js",
 				"document":"set-color-red/document.html",
@@ -33,7 +36,7 @@
 			},
 			{
 				"pageTitle":"キャラクターを配置しよう",
-				"dir":"enchant-tips-sprite/",
+				"dir":"codefriends-enchant-tips/",
 				"main":"before-set-sprite/main.js",
 				"custom":"before-set-sprite/custom.js",
 				"document":"set-sprite/document.html",
@@ -44,7 +47,7 @@
 			},
 			{
 				"pageTitle":"キャラクターの位置を変更しよう",
-				"dir":"enchant-tips-sprite/",
+				"dir":"codefriends-enchant-tips/",
 				"main":"before-set-position/main.js",
 				"custom":"before-set-position/custom.js",
 				"document":"set-position/document.html",
@@ -55,7 +58,7 @@
 			},
 			{
 				"pageTitle":"キャラクターを移動させよう",
-				"dir":"enchant-tips-sprite/",
+				"dir":"codefriends-enchant-tips/",
 				"main":"before-move-sprite/main.js",
 				"custom":"before-move-sprite/custom.js",
 				"document":"move-sprite/document.html",
@@ -66,7 +69,7 @@
 			},
 			{
 				"pageTitle":"キャラクターを消してみよう",
-				"dir":"enchant-tips-sprite/",
+				"dir":"codefriends-enchant-tips/",
 				"main":"before-remove-sprite/main.js",
 				"custom":"before-remove-sprite/custom.js",
 				"document":"remove-sprite/document.html",
@@ -77,7 +80,7 @@
 			},
 			{
 				"pageTitle":"キャラクターのスタート位置を変更しよう",
-				"dir":"enchant-tips-sprite/",
+				"dir":"codefriends-enchant-tips/",
 				"main":"before-set-sprite-random/main.js",
 				"custom":"before-set-sprite-random/custom.js",
 				"document":"set-sprite-random/document.html",
@@ -88,7 +91,7 @@
 			},
 			{
 				"pageTitle":"ボタンを配置しよう",
-				"dir":"enchant-tips-button/",
+				"dir":"codefriends-enchant-tips/",
 				"main":"before-set-button/main.js",
 				"custom":"before-set-button/custom.js",
 				"document":"set-button/document.html",
@@ -99,7 +102,7 @@
 			},
 			{
 				"pageTitle":"ボタンを押してみよう",
-				"dir":"enchant-tips-button/",
+				"dir":"codefriends-enchant-tips/",
 				"main":"before-click-button/main.js",
 				"custom":"before-click-button/custom.js",
 				"document":"click-button/document.html",
@@ -110,10 +113,21 @@
 			},
 			{
 				"pageTitle":"ボタンを押してプレイヤーを移動させよう",
-				"dir":"enchant-tips-button/",
+				"dir":"codefriends-enchant-tips/",
 				"main":"before-click-button-once/main.js",
 				"custom":"before-click-button-once/custom.js",
 				"document":"click-button-once/document.html",
+				"background":"",
+				"teacher":"Im",
+				"rank":1,
+				"lockFlg":false
+			},
+			{
+				"pageTitle":"隕石をぶつけてみよう",
+				"dir":"codefriends-enchant-tips/",
+				"main":"before-colision-one-to-one/main.js",
+				"custom":"before-colision-one-to-one/custom.js",
+				"document":"colision-one-to-one/document.html",
 				"background":"",
 				"teacher":"Im",
 				"rank":1,
